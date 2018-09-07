@@ -1,14 +1,31 @@
 <ion-header>
-  <ion-navbar>
+  <ion-toolbar class="navBar1" color="app">
     <ion-title>
-      Ionic Blank
     </ion-title>
-  </ion-navbar>
-</ion-header>
+    <button round  ion-button color="app" style="float: left;" (click)="getDetail()">Create Profile</button>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="close()"><ion-icon name="close"></ion-icon></button>
+    </ion-buttons>
+  
+    </ion-toolbar>
 
-<ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+</ion-header>
+<ion-content class="bg_content1" padding>
+
+  <div class="div1">
+      <h1 style="text-align:center;">CODE_TRIBERS</h1>
+  </div>
+
+   <br>
+  <ion-list no-lines>
+
+ 
+    <ion-item id ="items" *ngFor="let item of items" (click)="viewItems(item)">
+      <h2>{{item.fname}} {{item.sname}} </h2>
+
+
+      </ion-item>
+
+ 
+  </ion-list>
 </ion-content>

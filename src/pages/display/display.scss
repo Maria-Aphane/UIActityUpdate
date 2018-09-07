@@ -1,4 +1,4 @@
-page-home {
+page-display {
 
     .bg_content1{
 
@@ -52,20 +52,29 @@ page-home {
     
         vertical-align: middle;
         text-align: center;
-      }
-      .circle-pic{
-        height: 50px;
-        width: 50px;
-        border-radius: 100%;
-        text-align: center;
-        vertical-align: middle; 
-     }
-     h1{
-        color:whitesmoke;
-        
     
       }
+      .card{
+
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background: rgba(0.0,0.0,0.0,0.4);
+        border: medium none;
+        color : white;
+
+
+      }
       
+      .circle-pic{
+        height: 60px;
+        width: 60px;
+        border-radius: 100%;
+        text-align: center;
+        vertical-align: middle;
+     
+        
+     }
+
 
 
 }

@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar class="navBar1" color="app">
+    <ion-title>
+        CODE_TRIBERS
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)="close()"><ion-icon name="close"></ion-icon></button>
+    </ion-buttons>
+    </ion-toolbar>
+
+</ion-header>
+<ion-content class="bg_content1" padding>
+
+  <ion-list no-lines *ngFor="let tribe of Codetribes;let i=index;">
+     <ion-item id ="items" (click)="viewProfile(i)">
+          <h2>{{tribe.firstName}} {{tribe.LastName}}</h2>
+          
+          <P style="text-align:center;"><img class="circle-pic" src="../assets/imgs/{{tribe.pic}}"/></P>
+        </ion-item> 
+  </ion-list>
+
+</ion-content>
+

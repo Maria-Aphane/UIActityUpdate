@@ -1,0 +1,28 @@
+{"coord":{"lon":28.05,"lat":-26.21},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations","main":{"temp":299.64,
+"pressure":1020,"humidity":24,"temp_min":299.15,"temp_max":300.15},"visibility":10000,"wind":{"speed":7.2,"deg":280},"clouds":{"all":0},"dt":1534507200,
+"sys":{"type":1,"id":6569,"message":0.0053,"country":"ZA","sunrise":1534480478,"sunset":1534520953},"id":993800,"name":"Johannesburg","cod":200}
+
+{"coord":{"lon":29.46,"lat":-23.91},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations",
+"main":{"temp":303.15,"pressure":1019,"humidity":16,"temp_min":303.15,"temp_max":303.15},"visibility":8000,"wind":{"speed":3.6,"deg":270},
+"clouds":{"all":0},"dt":1534507200,"sys":{"type":1,"id":6602,"message":0.0022,"country":"ZA","sunrise":1534479985,"sunset":1534520768},"id":965289,"name":"Polokwane","cod":200}
+
+{"coord":{"lon":25.66,"lat":-25.86},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations",
+"main":{"temp":299.15,"pressure":1021,"humidity":7,"temp_min":299.15,"temp_max":299.15},"visibility":10000,"wind":{"speed":5.1,"deg":220},
+"clouds":{"all":0},"dt":1534507200,"sys":{"type":1,"id":6581,"message":0.0026,"country":"ZA","sunrise":1534481027,"sunset":1534521551},"id":980595,"name":"Mafikeng","cod":200}
+
+{"coord":{"lon":30.98,"lat":-25.48},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations",
+"main":{"temp":305.15,"pressure":1016,"humidity":17,"temp_min":305.15,"temp_max":305.15},"wind":{"speed":5.1,"deg":70},"clouds":{"all":0},"dt":1534510800,
+"sys":{"type":1,"id":6565,"message":0.0022,"country":"ZA","sunrise":1534479725,"sunset":1534520299},"id":971534,"name":"Nelspruit","cod":200}
+
+{"coord":{"lon":28.2,"lat":-26.02},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations",
+"main":{"temp":299.42,"pressure":1019,"humidity":21,"temp_min":299.15,"temp_max":300.15},"visibility":10000,"wind":{"speed":10.8,"deg":290},
+"clouds":{"all":0},"dt":1534510800,"sys":{"type":1,"id":6569,"message":0.003,"country":"ZA","sunrise":1534480428,"sunset":1534520930},"id":949880,"name":"Tembisa","cod":200}
+
+{"coord":{"lon":28.19,"lat":-25.75},"weather":[{"id":800,"main":"Clear","description":"clear sky","icon":"01d"}],"base":"stations",
+"main":{"temp":300.15,"pressure":1019,"humidity":21,"temp_min":300.15,"temp_max":300.15},"visibility":10000,"wind":{"speed":10.8,"deg":290},"clouds":{"all":0},
+"dt":1534510800,"sys":{"type":1,"id":6569,"message":0.002,"country":"ZA","sunrise":1534480412,"sunset":1534520951},"id":964137,"name":"Pretoria","cod":200}
+
+{"coord":{"lon":0.58,"lat":43.54},"weather":[{"id":801,"main":"Clouds","description":"few clouds","icon":"02d"}],
+"base":"stations","main":{"temp":295.82,"pressure":1022,"humidity":82,"temp_min":293.15,"temp_max":299.15},
+"visibility":10000,"wind":{"speed":3.1,"deg":260},"clouds":{"all":20},"dt":1534510800,"sys":{"type":1,"id":5539,"message":0.0022,"country":"FR","sunrise":1534482307,
+"sunset":1534532242},"id":3016194,"name":"Durban","cod":200}

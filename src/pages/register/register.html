@@ -1,0 +1,55 @@
+<ion-header>
+  <ion-toolbar class="navBar1" color="app">
+    <ion-title>
+      Create Account
+    </ion-title>
+      <ion-buttons end>
+        <button ion-button icon-only (click)="close()"><ion-icon name="close"></ion-icon></button>
+      </ion-buttons>
+    </ion-toolbar>
+
+</ion-header>
+<ion-content class="bg_content1">
+
+          
+<div class="div1">
+
+<ion-list no-lines>
+
+    <ion-item id ="items">
+        <ion-label stacked>Firstname  :</ion-label>
+        <ion-input type="text" [(ngModel)]="fname"></ion-input>
+      </ion-item>
+ 
+ 
+  <ion-item id ="items">
+    <ion-label stacked>Lastname :</ion-label>
+    <ion-input type="text" [(ngModel)]="sname"></ion-input>
+  </ion-item>
+
+  <ion-item id ="items">
+    <ion-label stacked>Cellphone Number :</ion-label>
+    <ion-input type="text" [(ngModel)]="cellNo"></ion-input>
+  </ion-item>
+  <ion-item id ="items">
+    <ion-label stacked>Email :</ion-label>
+    <ion-input type="email" [(ngModel)]="email"></ion-input>
+  </ion-item>
+
+  <ion-item id ="items">
+    <ion-label stacked>Password :</ion-label>
+    <ion-input type="password" [(ngModel)]="Password1"></ion-input>
+  </ion-item>
+
+  <ion-item id ="items">
+    <ion-label stacked>Comfirm Password :</ion-label>
+    <ion-input type="password" [(ngModel)]="Password2"></ion-input>
+  </ion-item>
+
+</ion-list>
+
+<button ion-button round full color="app" (click)="saveItems()"> Send </button> 
+
+</div>
+
+</ion-content>

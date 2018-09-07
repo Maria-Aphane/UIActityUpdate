@@ -1,0 +1,38 @@
+<ion-header>
+
+    <ion-navbar class="navBar1" color="app">
+      <ion-title>
+       Profile
+      </ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content class="bg_content1" padding>
+
+
+    
+  <ion-list no-lines *ngFor="let tribe of detail;let i=index;">
+
+      <ion-item id ="items">
+
+          <img class="circle-pic" src="../assets/imgs/{{tribe.pic}}"/> 
+         
+          <br><br><br>
+
+
+              <p style="color:whitesmoke"> Surname  : {{tribe.firstName}}</p>
+              <p style="color:whitesmoke"> Name : {{tribe.LastName}}</p>
+              <p style="color:whitesmoke">Cellphone Number : {{tribe.MobileNo}}</p> 
+              <p style="color:whitesmoke">Email : {{tribe.email}}</p> 
+        
+           
+            </ion-item> 
+
+            <br><br><br>
+
+         <button ion-button full round color="app" (click)="getOK()" >Edit Profile</button>
+   </ion-list>
+  
+  </ion-content>
